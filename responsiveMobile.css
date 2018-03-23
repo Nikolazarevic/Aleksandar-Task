@@ -1,0 +1,66 @@
+@media screen and (max-width: 648px){
+	#container {
+		width: 648px;
+	}
+	.section1 .innerSection1 {
+		width: 600px;
+	}
+	.section1 .innerSection1 .txtHeader {
+		margin-top: 10px;
+	}
+	.section1 .txtHeader h1 {
+		font-size: 30px;
+	}
+	.section1 .videoLog {
+		width: ;
+		height: ;
+	}
+	.topBar {
+		height: 90px;
+		display: flex;
+		position: relative;
+	}
+	.logo {
+		display: none;
+	}
+	.login {
+		display: none;
+	}
+	.nav {
+		width: 70%;
+		z-index: 1;
+		position: absolute;
+		left:50px;
+		display: none;
+		 }
+	.nav ul {
+		width: 100%;
+		background: linear-gradient(90deg, #332390, #5836cf);
+		border-radius: 20px;
+		border-color: dodgerBlue;
+		box-shadow: 0 0 8px 0 dodgerBlue;	
+	}
+	.nav li {
+		width: 100%;
+		display: block;
+		text-align: center;		
+		padding: 15px 0;
+		color: #ffffff;
+	}						
+	.toggle {
+		display: flex;
+		justify-content: space-between;
+	}
+	.toggle img {
+		width: 15%;
+	}
+	.toggle .fa {
+		cursor: pointer;
+		font-size: 30px;
+		margin-left: 0;
+	}
+	.active {
+		display: block;
+	}
+	
+}
